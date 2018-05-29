@@ -1,0 +1,3 @@
+20180328-08:35:24.247:调用[func.BackLogImportAction.fileProcess()导出文件[20180308_reqlist.csv需求条目文件]返回结果：-1|从安渡服务器下载文件20180308_reqlist.csv失败。
+20180328-08:35:24.346:调用[func.TaskImportAction.fileProcess()导出文件[20180308_tasklist.csv任务清单文件]返回结果：0|处理文件[20180308_tasklist.csv]记录行:内容完成！
+20180328-08:35:24.388:调用[func.ScheduleDefImportAction.fileProcess()导出文件[20180308_schedef.csv批次文件]返回结果：-1|从安渡服务器下载文件20180308_schedef.csv失败。

@@ -1,0 +1,12 @@
+20180423-14:38:01.241:调用[func.UserDoneTaskExportAction.fileProcess()导出文件[20180422_userDoneTaskStt.csv用户任务完成量文件]返回结果：-1|获取数据库数据发生异常：java.lang.RuntimeException: 执行[select USERS.USER_NAME+' '+TASK_DEF.OWNER USER_ID,COUNT(*) DONE_STAK,CONVERT(varchar(100),GETDATE()-1,23) DATA_DATEFROM TASK_DEF,USERS WHERE TASK_DEF.OWNER=USERS.USER_ID AND  TASK_DEF.STATUS NOT IN('1','2') GROUP BY OWNER,USERS.USER_NAME]异常：com.microsoft.sqlserver.jdbc.SQLServerException: “TASK_DEF”附近有语法错误。
+20180423-14:38:01.288:调用[func.BackLogExportAction.fileProcess()导出文件[20180422_reqsync.csv需求同步文件]返回结果：0|处理成功
+20180423-14:38:01.324:调用[func.TaskDetailExportAction.fileProcess()导出文件[20180422_taskDetailSync.csv任务同步 件]返回结果：0|处理成功
+20180423-14:38:01.382:调用[func.DelayDetailExportAction.fileProcess()导出文件[20180422_delayDetailSync.csv延期信息文件]返回结果：0|处理成功
+20180423-17:28:04.164:调用[func.UserDoneTaskExportAction.fileProcess()导出文件[20180421_userDoneTaskStt.csv用户任务完成量文件]返回结果：-1|获取数据库数据发生异常：java.lang.RuntimeException: 执行[select USERS.USER_NAME+' '+TASK_DEF.OWNER USER_ID,COUNT(*) DONE_STAK,CONVERT(varchar(100),GETDATE()-1,23) DATA_DATEFROM TASK_DEF,USERS WHERE TASK_DEF.OWNER=USERS.USER_ID AND  TASK_DEF.STATUS NOT IN('1','2') GROUP BY OWNER,USERS.USER_NAME]异常：com.microsoft.sqlserver.jdbc.SQLServerException: “TASK_DEF”附近有语法错误。
+20180423-17:28:04.209:调用[func.BackLogExportAction.fileProcess()导出文件[20180421_reqsync.csv需求同步文件]返回结果：0|处理成功
+20180423-17:28:04.264:调用[func.TaskDetailExportAction.fileProcess()导出文件[20180421_taskDetailSync.csv任务同步 件]返回结果：0|处理成功
+20180423-17:28:04.334:调用[func.DelayDetailExportAction.fileProcess()导出文件[20180421_delayDetailSync.csv延期信息文件]返回结果：-1|获取数据库数据发生异常：java.lang.NullPointerException
+20180423-17:30:41.422:调用[func.UserDoneTaskExportAction.fileProcess()导出文件[20180420_userDoneTaskStt.csv用户任务完成量文件]返回结果：-1|获取数据库数据发生异常：java.lang.RuntimeException: 执行[select USERS.USER_NAME+' '+TASK_DEF.OWNER USER_ID,COUNT(*) DONE_STAK,CONVERT(varchar(100),GETDATE()-1,23) DATA_DATEFROM TASK_DEF,USERS WHERE TASK_DEF.OWNER=USERS.USER_ID AND  TASK_DEF.STATUS NOT IN('1','2') GROUP BY OWNER,USERS.USER_NAME]异常：com.microsoft.sqlserver.jdbc.SQLServerException: “TASK_DEF”附近有语法错误。
+20180423-17:30:41.464:调用[func.BackLogExportAction.fileProcess()导出文件[20180420_reqsync.csv需求同步文件]返回结果：0|处理成功
+20180423-17:30:41.505:调用[func.TaskDetailExportAction.fileProcess()导出文件[20180420_taskDetailSync.csv任务同步 件]返回结果：0|处理成功
+20180423-17:30:41.574:调用[func.DelayDetailExportAction.fileProcess()导出文件[20180420_delayDetailSync.csv延期信息文件]返回结果：-1|获取数据库数据发生异常：java.lang.NullPointerException

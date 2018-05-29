@@ -1,0 +1,4 @@
+20180426-15:57:54.694:调用[func.UserDoneTaskExportAction.fileProcess()导出文件[20180425_userDoneTaskStt.csv用户任务完成量文件]返回结果：0|处理成功
+20180426-15:57:54.735:调用[func.BackLogExportAction.fileProcess()导出文件[20180425_reqsync.csv需求同步文件]返回结果：0|处理成功
+20180426-15:57:54.788:调用[func.TaskDetailExportAction.fileProcess()导出文件[20180425_taskDetailSync.csv任务同步 件]返回结果：0|处理成功
+20180426-15:57:54.839:调用[func.DelayDetailExportAction.fileProcess()导出文件[20180425_delayDetailSync.csv延期信息文件]返回结果：-1|获取数据库数据发生异常：java.lang.NullPointerException

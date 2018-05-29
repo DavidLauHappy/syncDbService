@@ -1,0 +1,4 @@
+20180510-10:59:13.074:调用[func.UserDoneTaskExportAction.fileProcess()导出文件[20180503_userDoneTaskStt.csv用户任务完成量文件]返回结果：0|处理成功
+20180510-10:59:13.124:调用[func.BackLogExportAction.fileProcess()导出文件[20180503_reqsync.csv需求同步文件]返回结果：0|处理成功
+20180510-10:59:13.164:调用[func.TaskDetailExportAction.fileProcess()导出文件[20180503_taskDetailSync.csv任务同步 件]返回结果：0|处理成功
+20180510-10:59:13.209:调用[func.DelayDetailExportAction.fileProcess()导出文件[20180503_delayDetailSync.csv延期信息文件]返回结果：0|处理成功

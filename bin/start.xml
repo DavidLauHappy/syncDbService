@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<dataIn  UniNXG_URL="rms"  UniNXG_SharedUser="oa" apiKey="19f7-8230163ef510e31b517-"    UniNXG_IP_OUT="172.24.142.116"  UniNXG_IP_IN="172.24.142.116"  UniNXG_DIR="oaDataExchange" >
+		<data  id="001"  fileName="#workdate#_reqlist.csv"   desc="需求条目文件"   functionClass="func.BackLogImportAction" ></data>
+		<data  id="002"  fileName="#workdate#_tasklist.csv"   desc="任务清单文件"   functionClass="func.TaskImportAction" ></data>
+		<data  id="003"  fileName="#workdate#_schedef.csv"    desc="批次文件"  	   functionClass="func.ScheduleDefImportAction" ></data>
+	</dataIn>
+	<dataOut  dbServer="172.24.178.241"  port="1433"  user="sa"  passwd="O69qwd09IRLf2qESE6CkMw=="  dbname="Gorgeous"    shareUser="administrator:qwe123!@#@172.24.178.241"  shareFolder="C:\\UniNXGUpload"  >
+		 <data id="004" fileName="#workdate#_userDoneTaskStt.csv" 	desc="用户任务完成量文件"   functionClass="func.UserDoneTaskExportAction" ></data>
+		 <data id="005" fileName="#workdate#_reqsync.csv"   		desc="需求同步文件"  	   functionClass="func.BackLogExportAction" ></data>
+		 <data id="006" fileName="#workdate#_taskDetailSync.csv"   	desc="任务同步 件"     	   functionClass="func.TaskDetailExportAction" ></data>
+		 <data id="007" fileName="#workdate#_delayDetailSync.csv"   desc="延期信息文件"     	   functionClass="func.DelayDetailExportAction" ></data>
+	</dataOut>
+	<httpserver  enable="No"  />
+	<service  frequency="10"  workdate="20180503"  startTime="22:00:00" />
+</configuration>
